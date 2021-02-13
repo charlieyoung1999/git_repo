@@ -38,6 +38,7 @@ def merge_sort(temp_list):
             
             
 temp_list = [2,3,5,9,1,8,7,6]
+temp_list = [1,4,4,2]
 merge_sort(temp_list)
             
             
