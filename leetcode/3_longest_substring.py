@@ -37,7 +37,7 @@ class Solution:
 Solution.lengthOfLongestSubstring(1, "")            
         
         
-        
+
         
         
 
