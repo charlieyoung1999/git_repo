@@ -39,7 +39,7 @@ Solution.isPalindrome(1, 5)
         
 
 
-# solution 2
+# solution 2, still slow
 
 class Solution:
     def isPalindrome(self, x):
@@ -77,12 +77,19 @@ class Solution:
 
 Solution.isPalindrome(1, 2222222)
 
+
+
+
+
+class Solution:
+    def isPalindrome(self, x):
+        if x < 0:
+            return False        
+        else:
+            return x == int(str(x)[::-1])
+
+
 x = 2222222
-math.floor(math.log10(543322))
-
-
-
-
 
 
 
